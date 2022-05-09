@@ -6,3 +6,6 @@ srcDir = "src"
 bin = @["conch"]
 
 requires "nim >= 1.6.4"
+requires "dimscord"
+requires "dimscmd"
+requires "dotenv"
