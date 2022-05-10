@@ -28,5 +28,3 @@ cmd.addChat("concha question") do ():
   discard await discord.api.sendMessage(msg.channelId, response)
 
 waitFor discord.startSession()
-# echo responses
-# echo responses[rand(responses.len - 1)].getStr()
